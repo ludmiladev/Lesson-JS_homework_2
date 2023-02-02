@@ -1,51 +1,130 @@
 /*- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент у консоль*/
-let fruit = [19, 26, 'red', 'blue', null, true, false];
-console.log(fruit);
-console.log(fruit[0]);
-console.log(fruit[1]);
-console.log(fruit[2]);
-console.log(fruit[3]);
-console.log(fruit[4]);
-console.log(fruit[5]);
-console.log(fruit[6]);
-console.log(fruit[0],[1],[2]);
-console.log(fruit[0]+[1]+[2]);
-
-// Або
-let color = [];
-color[0] = "blue";
-color[0] = "red";
-color[0] = "green";
-color[0] = "purple";
-color[0] = "yellow";
-console.log(color);
+// let fruit = [
+//     19,
+//     26,
+//     'red',
+//     'blue',
+//     null,
+//     true,
+//     false
+// ];
+//
+// console.log(fruit);
+// console.log(fruit[0]);
+// console.log(fruit[1]);
+// console.log(fruit[2]);
+// console.log(fruit[3]);
+// console.log(fruit[4]);
+// console.log(fruit[5]);
+// console.log(fruit[6]);
+// console.log(fruit[0],[1],[2]);
+// console.log(fruit[0]+[1]+[2]);
+//
+// // Або
+// let color = [];
+// color[0] = "blue";
+// color[0] = "red";
+// color[0] = "green";
+// color[0] = "purple";
+// color[0] = "yellow";
+// console.log(color);
 
 /*- Створити 3 об'єкти, які описують книги. Поля об'єкта : назва, кількість сторінок, жанр.*/
-let cookbook = {
-    name: "Домашня випічка",
-    number_of_sides: 256,
-    genre: "кулінарія",
-}
-console.log(cookbook);
-
-let medical_book = {
-    name: "Медична енциклопедія",
-    number_of_sides: 895,
-    genre: "медицина",
-}
-console.log(medical_book);
-
-let children_book = {
-    name: "Рапунцель",
-    number_of_sides: 15,
-    genre: "дитяча література",
-}
-console.log(children_book);
+// let cookbook = {
+//     name: "Домашня випічка",
+//     number_of_sides: 256,
+//     genre: "кулінарія",
+// }
+// console.log(cookbook);
+//
+// let medical_book = {
+//     name: "Медична енциклопедія",
+//     number_of_sides: 895,
+//     genre: "медицина",
+// }
+// console.log(medical_book);
+//
+// let children_book = {
+//     name: "Рапунцель",
+//     number_of_sides: 15,
+//     genre: "дитяча література",
+// }
+// console.log(children_book);
 
 /*- Створити 3 об'єкти, які описують книги. Поля об'єкта : назва, кількість сторінок, жанр, автори. Поле "автори" - виникає масивом. Кожен автор має поле ім'я та вік.*/
+
+// let geography = {
+//     name: "Річки та ліси України",
+//     number_of_sides: 219,
+//     genre: "Географічне положення",
+//     author: ["Maксим ", "Олеся", "Наташа", "Ігор"]
+// }
+// console.log(geography);
+// console.log(geography.author[0]);
+// console.log(geography.author[2]);
+//
+// let history = {
+//     name: "Битва під Крутами",
+//     number_of_sides: 12,
+//     genre: "Історичний",
+//     author: ["Саша", "Валерія", "Оксана", "Фіона"]
+// }
+// console.log(history);
+// console.log(history.author[0]);
+// console.log(history.author[1]);
+//
+// let archeology = {
+//     name: "Піраміди Хеопса",
+//     number_of_sides: 140,
+//     genre: "Археологічні розкопки",
+//     author: ["Марк", "Єгор", "Галина", "Злата"]
+// }
+// console.log(archeology);
+// console.log(archeology.author[2]);
+// console.log(archeology.author[3]);
+
+// Aбо
+
+// let geography = { }
+//     geography.name = "Річки та ліси України"
+//     geography.number_of_sides = 219,
+//     geography.genre = "Географічне положення",
+//     geography.author = ["Maксим ", "Олеся", "Наташа", "Ігор"]
+//
+// console.log(geography);
+//
+// let history = { }
+//     history.name = "Битва під Крутами",
+//     history.number_of_sides = 12,
+//     history.genre = "Історичний",
+//     history.author = ["Саша", "Валерія", "Оксана", "Фіона"]
+//
+// console.log(history);
+//
+// let archeology = { }
+//     archeology.name = "Піраміди Хеопса",
+//     archeology.number_of_sides = 140,
+//     archeology.genre = "Археологічні розкопки",
+//     archeology.author = [name1 :"Марк", age:19, name2:"Єгор", age:26, name3: "Галина", age:26, name4 :"Злата", age:26]
+//
+// console.log(archeology)
+
 /*- Створити масив з 10 об'єктами, які описують сутність "користувача". Поля: ім'я, ім'я користувача, пароль. Перейти в консоль пароля кожного користувача*/
 
-
+let user = [
+    'name',
+    'surname',
+    'patronymic',
+    'age',
+    'gender',
+    'place of residence',
+    'phone number',
+    'profession',
+    'level of English',
+    'password'
+]
+console.log(user);
+console.log(user[9]);
 
 /*Логічні розгалуження:*/
 /*- Є змінна х, яка ви надаєте вільне числове значення.*/
