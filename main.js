@@ -111,46 +111,31 @@
 
 /*- Створити масив з 10 об'єктами, які описують сутність "користувача". Поля: ім'я, ім'я користувача, пароль. Перейти в консоль пароля кожного користувача*/
 
-let users = [
-    'name',
-    'surname',
-    'patronymic',
-    'age',
-    'gender',
-    'place of residence',
-    'phone number',
-    'profession',
-    'level of English',
-    'password'
-]
-console.log(users);
-console.log(users[9]);
-
 // let users = [
-//     {
-//         name:' ',
-//         surname: ' ',
-//         patronymic: ' ',
-//         age: ' ',
-//         gender: '',
-//         placeResidence: '',
-//         phone: ' ',
-//         profession: ' ',
-//         levelEnglish: ' ',
-//         password: ' '
-
-//     }
+//     'name',
+//     'surname',
+//     'patronymic',
+//     'age',
+//     'gender',
+//     'place of residence',
+//     'phone number',
+//     'profession',
+//     'level of English',
+//     'password'
 // ]
 // console.log(users);
-// console.log(users[0]['password']);
+// console.log(users[9]);
 
 /*Логічні розгалуження:*/
 /*- Є зумінна х, яка ви надаєте вільне числове значення.*/
 /*Якщо змінна x не дорівнює нулю, введіть 'Вірно', інакше введіть 'Невірно'. Перевірте скрипт при a, що дорівнює 1, 0, -3*/
-let argument = x;
-console.log(argument);
 
-
+let argument = -3;
+if(argument === 0) {
+    alert('Невірно');
+} else {
+    alert('Вірно')
+}
 
 /*- Дано змінний час, який відповідає числу від 0 до 59. Потрібно написати код, який перевірив, до якої четвертої години потрапляє число*/
 /*(в першу, другу, третю або четверту частину години).*/
