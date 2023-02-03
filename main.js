@@ -221,7 +221,31 @@
 // console.log(users[9]);
 
 
+let users = [
 
+    {name:'Ivan',username:'Rojal',password:'323ehg398'},
+    {name:'Olja',username:'Basic',password:'Ndfe59873'},
+    {name:'Ira',username:'Kolo',password:322551498},
+    {name:'Natasha',username:'Vanda',password:'ljvf2369e'},
+    {name:'Maksim',username:'Leon',password:'TU369ljh5'},
+    {name:'Sonia',username:'Snikers',password:'3158fghj5'},
+    {name:'Denis',username:'Solomon',password:'356981dGy'},
+    {name:'Pavlo',username:'Juventys',password:'239YR239m'},
+    {name:'Roza',username:'Boord',password:'K239ldy45'},
+    {name:'Lili',username:'Kyzma',password:'D59gl53sl'},
+    {name:'Volodymyr',username:'Solon',password:159753286}
+]
+console.log(users);
+console.log(users[0].password);
+console.log(users[1].password);
+console.log(users[2].password);
+console.log(users[3].password);
+console.log(users[4].password);
+console.log(users[5].password);
+console.log(users[6].password);
+console.log(users[7].password);
+console.log(users[8].password);
+console.log(users[9].password);
 
 /*Логічні розгалуження:*/
 /*- Є зумінна х, яка ви надаєте вільне числове значення.*/
