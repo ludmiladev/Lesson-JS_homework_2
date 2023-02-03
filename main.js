@@ -63,7 +63,21 @@
 //     name: "Річки та ліси України",
 //     number_of_sides: 219,
 //     genre: "Географічне положення",
-//     author: ["Maксим ", "Олеся", "Наташа", "Ігор"]
+//     author: [
+//            {
+//                name:'Maксим', age: 35
+//            },
+//            {
+//                name:'Олеся', age: 28
+//            },
+//            {
+//                name:'Наташа', age: 44
+//            },
+//            {
+//                name:'Ігор', age: 37
+//            }
+//
+//        ]
 // }
 // console.log(geography);
 // console.log(geography.author[0]);
@@ -73,7 +87,21 @@
 //     name: "Битва під Крутами",
 //     number_of_sides: 12,
 //     genre: "Історичний",
-//     author: ["Саша", "Валерія", "Оксана", "Фіона"]
+//     author: [
+//         {
+//             name:'Саша', age: 19
+//         },
+//         {
+//             name:'Валерія', age: 23
+//         },
+//         {
+//             name:'Оксана', age: 32
+//         },
+//         {
+//             name:'Фіона', age: 47
+//         }
+//
+//     ]
 // }
 // console.log(history);
 // console.log(history.author[0]);
@@ -83,35 +111,92 @@
 //     name: "Піраміди Хеопса",
 //     number_of_sides: 140,
 //     genre: "Археологічні розкопки",
-//     author: ["Марк", "Єгор", "Галина", "Злата"]
+//     author: [
+//         {
+//             name:'Марк', age: 42
+//         },
+//         {
+//             name:'Єгор', age: 18
+//         },
+//         {
+//             name:'Галина', age: 37
+//         },
+//         {
+//             name:'Злата', age: 45
+//         }
+//
+//     ]
 // }
 // console.log(archeology);
 // console.log(archeology.author[2]);
 // console.log(archeology.author[3]);
 
 // Aбо
-
+//
 // let geography = { }
+//
 //     geography.name = "Річки та ліси України"
 //     geography.number_of_sides = 219,
 //     geography.genre = "Географічне положення",
-//     geography.author = ["Maксим ", "Олеся", "Наташа", "Ігор"]
+//     geography.author = [
+//            {
+//                name:'Maксим', age: 35
+//            },
+//            {
+//                name:'Олеся', age: 28
+//            },
+//            {
+//                name:'Наташа', age: 44
+//            },
+//            {
+//                name:'Ігор', age: 37
+//            }
+//          ]
 //
 // console.log(geography);
 //
+//
 // let history = { }
+//
 //     history.name = "Битва під Крутами",
 //     history.number_of_sides = 12,
 //     history.genre = "Історичний",
-//     history.author = ["Саша", "Валерія", "Оксана", "Фіона"]
+//     history.author = [
+//         {
+//             name:'Саша', age: 19
+//         },
+//         {
+//             name:'Валерія', age: 23
+//         },
+//         {
+//             name:'Оксана', age: 32
+//         },
+//         {
+//             name:'Фіона', age: 47
+//         }
+//     ]
 //
 // console.log(history);
+//
 //
 // let archeology = { }
 //     archeology.name = "Піраміди Хеопса",
 //     archeology.number_of_sides = 140,
 //     archeology.genre = "Археологічні розкопки",
-//     archeology.author = [name1 :"Марк", age:19, name2:"Єгор", age:26, name3: "Галина", age:26, name4 :"Злата", age:26]
+//     archeology.author = [
+//         {
+//             name:'Марк', age: 42
+//         },
+//         {
+//             name:'Єгор', age: 18
+//         },
+//         {
+//             name:'Галина', age: 37
+//         },
+//         {
+//             name:'Злата', age: 45
+//         }
+//     ]
 //
 // console.log(archeology)
 
