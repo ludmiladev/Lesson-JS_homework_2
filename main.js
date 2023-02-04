@@ -206,22 +206,6 @@
 /*- Створити масив з 10 об'єктами, які описують сутність "користувача". Поля: ім'я, ім'я користувача, пароль. Перейти в консоль пароля кожного користувача*/
 
 // let users = [
-//     'name',
-//     'surname',
-//     'patronymic',
-//     'age',
-//     'gender',
-//     'place of residence',
-//     'phone number',
-//     'profession',
-//     'level of English',
-//     'password'
-// ]
-// console.log(users);
-// console.log(users[9]);
-
-
-// let users = [
 //
 //     {name:'Ivan',username:'Rojal',password:'323ehg398'},
 //     {name:'Olja',username:'Basic',password:'Ndfe59873'},
